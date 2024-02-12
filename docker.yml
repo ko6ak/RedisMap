@@ -1,0 +1,8 @@
+version: "1.0"
+name: redis_db
+services:
+  redis:
+    container_name: redis
+    image: redis:latest
+    ports:
+      - "6379:6379"
